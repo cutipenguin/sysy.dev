@@ -1,22 +1,40 @@
-
 <!DOCTYPE html>
+<html>
 <head>
     <style>
-        * {
+        body {
+          width: 100%;
+        }
+        h3, h1, label, input {
             width:100%;
             text-align:center;
         }
+         input {
+            width:200px;
+            text-align:center;
+            margin: 0 auto;
+            display: block;
+        } 
     </style>
+    
 </head>
 <body>
-<h3><ol>Hi,I'm Sylvia!How are you?</ol></h3>
-<h3><ol>It's nice to meeting you!</ol></h3>
-<h1><ol>Tell me more about you!</ol></h1>
-    
-<label for="fname"><h3>Your name:</h3></label>
-<input type="text" id="fname" name="fname"><br><br>
-<label for="gender"><h3>Your gender:</h3></label>
-<input type="text" id="gender" name="gender"><br><br><br><br>
-<input type="submit" value="Submit">
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<h3>Hi,I'm Sylvia!How are you?</h3>
+<h3>It's nice to meeting you!</h3>
+<h1>Tell me more about you!</h1>
+
+
+<form action="/action_page.php">
+<strong><label for="fname"><h3>Your name:</h3></label></strong>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="gender"><h3>Your gender:</h3></label>
+  <input type="text" id="gender" name="gender"><br><br><br><br>
+  <input type="submit" value="Submit">
 </form>
-  </body>
+</body>
+</html>
